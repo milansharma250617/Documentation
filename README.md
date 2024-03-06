@@ -117,3 +117,11 @@ Notes: External images might be under copyright. If you do not get permission to
 ## 2. Relative URL
  - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_boys.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_boys.jpg".
 Tip: It is almost always best to use relative URLs. They will not break if you change domain.
+# The width and height Attributes
+The <img> tag should also contain the width and height attributes, which specify the width and height of the image (in pixels):
+### Example       
+         <img src="img_boys.jpg" width="500" height="600">
+# The style Attribute
+The style attribute is used to add styles to an element, such as color, font, size, and more.
+###Example
+          <p style="color:red;">This is a red paragraph.</p>
