@@ -125,3 +125,29 @@ The <img> tag should also contain the width and height attributes, which specify
 The style attribute is used to add styles to an element, such as color, font, size, and more.
 ### Example
           <p style="color:red;">This is a red paragraph.</p>
+# HTML Headings
+HTML headings are defined with the <h1> to <h6> tags.
+### Example
+       <h1>Heading 1</h1>
+       <h2>Heading 2</h2>
+       <h3>Heading 3</h3>
+       <h4>Heading 4</h4>
+       <h5>Heading 5</h5>
+       <h6>Heading 6</h6>
+# HTML Paragraphs
+The HTML <p> element defines a paragraph.
+### Example
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+
+
+# HTML Horizontal Rules
+The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+The <hr> element is used to separate content (or define a change) in an HTML page:
+### Example
+        <h1>This is heading 1</h1>
+        <p>This is some text.</p>
+        <hr>
+        <h2>This is heading 2</h2>
+        <p>This is some other text.</p>
+        <hr>
