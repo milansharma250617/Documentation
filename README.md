@@ -89,3 +89,15 @@ Some HTML elements will display correctly, even if you forget the end tag:
 
         </body>
         </html>
+# Empty HTML Elements
+HTML elements with no content are called empty elements.
+The <br> tag defines a line break, and is an empty element without a closing tag:
+### Example
+
+         <p>This is a <br> paragraph with a line break.</p>
+
+# HTML Attributes
+All HTML elements can have attributes
+Attributes provide additional information about elements
+Attributes are always specified in the start tag
+Attributes usually come in name/value pairs like: name="value"
