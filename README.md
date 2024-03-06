@@ -149,6 +149,47 @@ The <hr> element is used to separate content (or define a change) in an HTML pag
          <h2>This is heading 2</h2>
          <p>This is some other text.</p>
          <hr>
+# The HTML <pre> Element
+The HTML <pre> element defines preformatted text.
+The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+### Example
+          <pre>
+           My Bonnie lies over the ocean.
+           My Bonnie lies over the sea.
+           My Bonnie lies over the ocean.
+           Oh, bring back my Bonnie to me.
+          </pre>
+# Background Color
+The CSS background-color property defines the background color for an HTML element.
+### Example                                                                      
+           <body style="background-color:powderblue;">
+           <h1>This is a heading</h1>
+           <p>This is a paragraph.</p>
+           </body>
+# Text Alignment
+The CSS text-align property defines the horizontal text alignment for an HTML element:
+### Example
+           <h1 style="text-align:center;">Centered Heading</h1>
+           <p style="text-align:center;">Centered paragraph.</p>
+
+
+
+
+# HTML Formatting Elements
+Formatting elements were designed to display special types of text:
+
+
+           <b> - Bold text
+           <strong> - Important text
+           <i> - Italic text
+           <em> - Emphasized text
+           <mark> - Marked text
+           <small> - Smaller text
+           <del> - Deleted text
+           <ins> - Inserted text
+           <sub> - Subscript text
+           <sup> - Superscript text
+
 
 
 
