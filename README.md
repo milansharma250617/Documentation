@@ -38,4 +38,4 @@ The HTML element is everything from the start tag to the end tag:
 # Web Browsers
 The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.
 A browser does not display the HTML tags, but uses them to determine how to display the document:
-[ok](https://www.w3schools.com/html/img_chrome.png)
+(https://www.w3schools.com/html/img_chrome.png)
