@@ -64,7 +64,7 @@ The HTML element is everything from the start tag to the end tag:
 HTML elements can be nested (this means that elements can contain other elements).
 All HTML documents consist of nested HTML elements.
 The following example contains four HTML elements
- (<html>, <body>, <h1> and <p>):
+
 ### Example
        <!DOCTYPE html>
        <html>
