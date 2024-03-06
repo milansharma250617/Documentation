@@ -63,7 +63,7 @@ The HTML element is everything from the start tag to the end tag:
 # Nested HTML Elements
 HTML elements can be nested (this means that elements can contain other elements).
 All HTML documents consist of nested HTML elements.
-The following example contains four HTML elements
+The following example contains four HTML elements.
 
 ### Example
        <!DOCTYPE html>
@@ -77,3 +77,15 @@ The following example contains four HTML elements
 
        </body>
        </html>
+# Never Skip the End Tag
+Some HTML elements will display correctly, even if you forget the end tag:
+### Example
+
+        <html>
+        <body>
+
+        <p>This is a paragraph
+        <p>This is a paragraph
+
+        </body>
+        </html>
