@@ -123,5 +123,5 @@ The <img> tag should also contain the width and height attributes, which specify
          <img src="img_boys.jpg" width="500" height="600">
 # The style Attribute
 The style attribute is used to add styles to an element, such as color, font, size, and more.
-###Example
+### Example
           <p style="color:red;">This is a red paragraph.</p>
