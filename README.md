@@ -193,6 +193,82 @@ Formatting elements were designed to display special types of text:
            <sup> - Superscript text
 
 
+# HTML Tables
+  HTML tables allow web developers to arrange data into rows and columns.
+
+
+## HTML Table Tags
+   Tag
+   Description
+   <table>
+   Defines a table
+   <th>
+   Defines a header cell in a table
+   <tr>
+   Defines a row in a table
+   <td>
+   Defines a cell in a table
+   <caption>
+   Defines a table caption
+   <colgroup>
+   Specifies a group of one or more columns in a table for formatting
+   <col>
+   Specifies column properties for each column within a <colgroup> element
+   <thead>
+   Groups the header content in a table
+   <tbody>
+   Groups the body content in a table
+   <tfoot>
+   Groups the footer content in a table
+
+### Example
+    A simple HTML table:
+             <table>
+             <tr>
+             <th>Company</th>
+             <th>Contact</th>
+             <th>Country</th>
+             </tr>
+             <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+            </tr>
+            <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+            </tr>
+            </table>
+
+
+# HTML Description Lists
+  HTML also supports description lists.
+  A description list is a list of terms, with a description of each term.
+  The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term:
+### Example
+            <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+       </dl>
+## HTML List Tags
+   Tag
+   Description
+   <ul>
+   Defines an unordered list
+   <ol>
+   Defines an ordered list
+   <li>
+   Defines a list item
+   <dl>
+   Defines a description list
+   <dt>
+   Defines a term in a description list
+   <dd>
+   Describes the term in a description list
+
 
 
 
