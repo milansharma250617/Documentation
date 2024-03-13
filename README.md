@@ -266,26 +266,26 @@ Formatting elements were designed to display special types of text:
 The two most common display values are block and inline.
 
 ## Block-level Elements
-A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
-A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
-Two commonly used block elements are: <p> and <div>.
-The <p> element defines a paragraph in an HTML document.
-The <div> element defines a division or a section in an HTML document.
-The <p> element is a block-level element.
-The <div> element is a block-level element.
+     A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
+     A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+     Two commonly used block elements are: <p> and <div>.
+     The <p> element defines a paragraph in an HTML document.
+     The <div> element defines a division or a section in an HTML document.
+     The <p> element is a block-level element.
+     The <div> element is a block-level element.
 ### Example
           <p>Hello World</p>
           <div>Hello World</div>
 ## Inline Elements
-An inline element does not start on a new line.
-An inline element only takes up as much width as necessary.
-This is a <span> element inside a paragraph.
+     An inline element does not start on a new line.
+     An inline element only takes up as much width as necessary.
+     This is a <span> element inside a paragraph.
 ### Example
-<span>Hello World</span>
-The <div> Element
-The <div> element is often used as a container for other HTML elements.
-The <div> element has no required attributes, but style, class and id are common.
-When used together with CSS, the <div> element can be used to style blocks of content:
+     <span>Hello World</span>
+     The <div> Element
+     The <div> element is often used as a container for other HTML elements.
+     The <div> element has no required attributes, but style, class and id are common.
+     When used together with CSS, the <div> element can be used to style blocks of content:
 ### Example
           <div style="background-color:black;color:white;padding:20px;">
           <h2>London</h2>
@@ -293,65 +293,59 @@ When used together with CSS, the <div> element can be used to style blocks of co
           </p>
           </div>
 # The <span> Element
-The <span> element is an inline container used to mark up a part of a text, or a part of a document.
-The <span> element has no required attributes, but style, class and id are common.
-When used together with CSS, the <span> element can be used to style parts of the text:
+     The <span> element is an inline container used to mark up a part of a text, or a part of a document.
+     The <span> element has no required attributes, but style, class and id are common.
+     When used together with CSS, the <span> element can be used to style parts of the text:
 ### Example
           <p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold;">dark 
           green</span> eyes.</p>
 # HTML Forms
 An HTML form is used to collect user input. The user input is most often sent to a server for processing.
 ## The <form> Element
-The HTML <form> element is used to create an HTML form for user input:
-<form>
-form elements
-.
-</form>
-The <form> element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.
-All the different form elements are covered in this chapter: HTML Form Elements.
+     The HTML <form> element is used to create an HTML form for user input:
+     <form>
+     form elements
+     .
+     </form>
+    The <form> element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.
+    All the different form elements are covered in this chapter: HTML Form Elements.
 
 # The <input> Element
-The HTML <input> element is the most used form element.
-An <input> element can be displayed in many ways, depending on the type attribute.
-Here are some examples:
-Type
-Description
-<input type="text">
-Displays a single-line text input field
-<input type="radio">
-Displays a radio button (for selecting one of many choices)
-<input type="checkbox">
-Displays a checkbox (for selecting zero or more of many choices)
-<input type="submit">
-Displays a submit button (for submitting the form)
-<input type="button">
-Displays a clickable button
+     The HTML <input> element is the most used form element.
+     An <input> element can be displayed in many ways, depending on the type attribute.
+     Here are some examples:
+        Type                             Description
+     <input type="text">              Displays a single-line text input field
+     <input type="radio">             Displays a radio button (for selecting one of many choices)
+     <input type="checkbox">          Displays a checkbox (for selecting zero or more of many choices)
+     <input type="submit">            Displays a submit button (for submitting the form)
+     <input type="button">            Displays a clickable button
 # Text Fields
 The <input type="text"> defines a single-line input field for text input.
 ### Example
-A form with input fields for text:
+     A form with input fields for text:
            <form>
            <label for="fname">First name:</label><br>
            <input type="text" id="fname" name="fname"><br>
            <label for="lname">Last name:</label><br>
            <input type="text" id="lname" name="lname">
            </form>
+
 # The <label> Element
-Notice the use of the <label> element in the example above.
-The <label> tag defines a label for many form elements.
-The <label> element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focuses on the input element.
-The <label> element also helps users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks the text within the <label> element, it toggles the radio button/checkbox.
-The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.
+     Notice the use of the <label> element in the example above.
+     The <label> tag defines a label for many form elements.
+     The <label> element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focuses on the input element.
+     The <label> element also helps users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks 
+     the text within the <label> element, it toggles the radio button/checkbox.
+     The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.
 
 # Radio Buttons
-The <input type="radio"> defines a radio button.
-Radio buttons let a user select ONE of a limited number of choices.
+    The <input type="radio"> defines a radio button.
+    Radio buttons let a user select ONE of a limited number of choices.
 ### Example
-A form with radio buttons:
+       A form with radio buttons:
           <p>Choose your favorite Web language:</p>
-
-
-          <form>
+            <form>
           <input type="radio" id="html" name="fav_language" value="HTML">
           <label for="html">HTML</label><br>
           <input type="radio" id="css" name="fav_language" value="CSS">
@@ -359,9 +353,10 @@ A form with radio buttons:
           <input type="radio" id="javascript" name="fav_language" value="JavaScript">
           <label for="javascript">JavaScript</label>
           </form>
+
 # Checkboxes
-The <input type="checkbox"> defines a checkbox.
-Checkboxes let a user select ZERO or MORE options of a limited number of choices.
+        The <input type="checkbox"> defines a checkbox.
+        Checkboxes let a user select ZERO or MORE options of a limited number of choices.
 ### Example
            <form>
            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
@@ -371,10 +366,11 @@ Checkboxes let a user select ZERO or MORE options of a limited number of choices
            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
            <label for="vehicle3"> I have a boat</label>
            </form>
+
 # The Submit Button
-The <input type="submit"> defines a button for submitting the form data to a form-handler.
-The form-handler is typically a file on the server with a script for processing input data.
-The form-handler is specified in the form's action attribute.
+     The <input type="submit"> defines a button for submitting the form data to a form-handler.
+     The form-handler is typically a file on the server with a script for processing input data.
+     The form-handler is specified in the form's action attribute.
 ### Example
             <form action="/action_page.php">
             <label for="fname">First name:</label><br>
@@ -383,6 +379,7 @@ The form-handler is specified in the form's action attribute.
             <input type="text" id="lname" name="lname" value="Doe"><br><br>
             <input type="submit" value="Submit">
             </form>
+
 # The Name Attribute for <input>
 Notice that each input field must have a name attribute to be submitted.
 If the name attribute is omitted, the value of the input field will not be sent at all.
@@ -392,3 +389,7 @@ If the name attribute is omitted, the value of the input field will not be sent 
             <input type="text" id="fname" value="John"><br><br>
             <input type="submit" value="Submit">
             </form>
+         
+
+
+
