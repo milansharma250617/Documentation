@@ -143,8 +143,8 @@ The HTML element defines a paragraph.
         <p>This is a paragraph.</p>
         <p>This is another paragraph.</p>
 # HTML Horizontal Rules
-The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
-The <hr> element is used to separate content (or define a change) in an HTML page:
+          The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+          The <hr> element is used to separate content (or define a change) in an HTML page:
 ### Example
          <h1>This is heading 1</h1>
          <p>This is some text.</p>
