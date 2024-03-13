@@ -152,9 +152,9 @@ The HTML element defines a paragraph.
          <h2>This is heading 2</h2>
          <p>This is some other text.</p>
          <hr>
-# The HTML <pre> Element
-The HTML <pre> element defines preformatted text.
-The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+      # The HTML <pre> Element
+      The HTML <pre> element defines preformatted text.
+      The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
 ### Example
           <pre>
            My Bonnie lies over the ocean.
