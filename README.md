@@ -128,7 +128,7 @@ The style attribute is used to add styles to an element, such as color, font, si
 ### Example
           <p style="color:red;">This is a red paragraph.</p>
 # HTML Headings
-HTML headings are defined with the <h1> to <h6> tags.
+HTML headings are defined with the to tags.
 ### Example
        <h1>Heading 1</h1>
        <h2>Heading 2</h2>
