@@ -127,7 +127,7 @@ The <img> tag should also contain the width and height attributes, which specify
 # The style Attribute
 The style attribute is used to add styles to an element, such as color, font, size, and more.
 ### Example
-          <p style="color:red;">This is a red paragraph.</p>
+         
 # HTML Headings
 HTML headings are defined with the to tags.
 ### Example
@@ -235,9 +235,9 @@ Formatting elements were designed to display special types of text:
 
 
 # HTML Description Lists
-  HTML also supports description lists.
-  A description list is a list of terms, with a description of each term.
-  The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term:
+    HTML also supports description lists.
+    A description list is a list of terms, with a description of each term.
+    The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term:
 ### Example
             <dl>
             <dt>Coffee</dt>
@@ -392,14 +392,69 @@ If the name attribute is omitted, the value of the input field will not be sent 
          
 
 # code
-  
+  ### Heading tag
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+         <h1>My name is Milan Sharma</h1>
+         <h2>My name is Milan Sharma</h1>
+         <h3>My name is Milan Sharma</h1>
+         <h4>My name is Milan Sharma</h1>
+         <h5>My name is Milan Sharma</h1>
+         <h6>My name is Milan Sharma</h1>
+    </body>
+    </html>      
    
+  ### Paragraph tag
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+    <h1>my name is Milan Sharma</h1> 
+    <p>this is a simple paragraph</p>
+    </body>
+    </html>
    
+   ### Web browser link
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+    <h1>my name is Milan Sharma</h1> 
+    <br>
+    <p>this is a simple paragraph</p>
+    <a href="https://www.google.com">Visit google</a>
+    </body>
+    </html>
    
-   
-   
-   
-   
+   ### Never Skip the End Tag
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <p>This is a paragraph
+        <p>This is a paragraph
+
+    </body>
+    </html>
    
    
    ### Br tag
@@ -418,3 +473,113 @@ If the name attribute is omitted, the value of the input field will not be sent 
     </body>
     </html>
 
+### Image tag and width & height
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <p>This is a paragraph
+        <p>This is a paragraph
+          <img src="https://media.istockphoto.com/id/1298623104/photo/happy-young-caucasian-boy-in-casual-outfit-with-arms-crossed-isolated-over-white- 
+          background.jpg?s=612x612&w=0&k=20&c=9fHNGNfGAIyviDNmBvsYc8tjhSd4sL3b-2I5gd9bMIg="
+          <img src="https://media.istockphoto.com/id/1298623104/photo/happy-young-caucasian-boy-in-casual-outfit-with-arms-crossed-isolated-over-white- 
+          background.jpg?s=612x612&w=0&k=20&c=9fHNGNfGAIyviDNmBvsYc8tjhSd4sL3b-2I5gd9bMIg=" width="500" height="600">
+    </body>
+    </html>
+
+### The style attributes
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <p>This is a paragraph
+        <p>This is a paragraph
+            <p style="color:red;">This is a red paragraph.</p>
+    </body>
+    </html>
+
+### HTML Horizontal Rules
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <h1>My name is Milan Sharma</h1>
+        <hr>
+        <p>This is a simple paragraph</p>
+    
+    </body>
+    </html>
+
+### Pre tag
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Document</title>
+    </head>
+    <body>
+
+         <h1>My name is Milan Sharma</h1> 
+         <pre>
+             My Bonnie lies over the ocean.
+             My Bonnie lies over the sea.
+             My Bonnie lies over the ocean.
+             Oh, bring back my Bonnie to me.
+         </pre>
+    
+    </body>
+    </html>
+
+### Background color tag
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Document</title>
+    </head>
+    <body style="background-color:powderblue;">
+         <h1>This is a heading</h1>
+         <p>This is a paragraph.</p>
+    </body>
+    </html>
+
+### Text Alignment
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Document</title>
+    </head>
+    <body 
+         <h1>This is a heading</h1>
+         <p>This is a paragraph.</p>
+         <h1 style="text-align:center;">Centered Heading</h1>
+         <p style="text-align:center;">Centered paragraph.</p>
+    </body>
+    </html>
+         
+
+    
+
+
+
+
+
+    
