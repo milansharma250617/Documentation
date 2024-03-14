@@ -44,7 +44,7 @@ The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML doc
 A browser does not display the HTML tags, but uses them to determine how to display the document:
 ![Alt Text](https://www.w3schools.com/html/img_chrome.png)
 # HTML Page Structure
-Below is a visualisation of an HTML page structure:
+     Below is a visualisation of an HTML page structure:
         <html>
         <head>
         <title>Page title</title>
@@ -54,7 +54,7 @@ Below is a visualisation of an HTML page structure:
         <p>This is a paragraph.</p>
         <p>This is another paragraph.</p>
         </body>
-       </html>
+        </html>
 
 # HTML Elements
 The HTML element is everything from the start tag to the end tag:
