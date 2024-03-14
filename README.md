@@ -27,7 +27,7 @@ HTML elements label pieces of content such as "this is a heading", "this is a pa
          The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
          The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
          The <h1> element defines a large heading
-![Screenshot from 2024-03-07 16-29-29](https://github.com/milansharma250617/Documentation/assets/158464936/fe88b752-aa06-4bcb-8f36-e9d35bd99dae)
+
 The <p> element defines a paragraph
 
 # What is an HTML Element?
@@ -392,6 +392,18 @@ If the name attribute is omitted, the value of the input field will not be sent 
          
 
 # code
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   ### Br tag
+    
     <!DOCTYPE html>
     <html lang="en">
     <head>
