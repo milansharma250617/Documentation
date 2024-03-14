@@ -28,15 +28,15 @@ HTML elements label pieces of content such as "this is a heading", "this is a pa
          The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
          The <h1> element defines a large heading
 
-The <p> element defines a paragraph
+    The <p> element defines a paragraph
 
 # What is an HTML Element?
-An HTML element is defined by a start tag, some content, and an end tag:
-<tagname> Content goes here... </tagname>
-The HTML element is everything from the start tag to the end tag:
-<h1>My First Heading</h1>
+    An HTML element is defined by a start tag, some content, and an end tag:
+    <tagname> Content goes here... </tagname>
+    The HTML element is everything from the start tag to the end tag:
+    <h1>My First Heading</h1>
 
-<p>My first paragraph.</p>
+    <p>My first paragraph.</p>
 
 
 # Web Browsers
@@ -57,8 +57,8 @@ A browser does not display the HTML tags, but uses them to determine how to disp
         </html>
 
 # HTML Elements
-The HTML element is everything from the start tag to the end tag:
-<tagname>Content goes here...</tagname>
+    The HTML element is everything from the start tag to the end tag:
+    <tagname>Content goes here...</tagname>
 ### Examples of some HTML elements:
         <h1>My First Heading</h1>
        <p>My first paragraph.</p>
@@ -93,8 +93,8 @@ Some HTML elements will display correctly, even if you forget the end tag:
         </body>
         </html>
 # Empty HTML Elements
-HTML elements with no content are called empty elements.
-The <br> tag defines a line break, and is an empty element without a closing tag:
+    HTML elements with no content are called empty elements.
+    The <br> tag defines a line break, and is an empty element without a closing tag:
 ### Example
 
          <p>This is a <br> paragraph with a line break.</p>
@@ -110,7 +110,7 @@ The <a> tag defines a hyperlink. The href attribute specifies the URL of the pag
           <a href="https://www.google.com">Visit google</a>
 
 # The src Attribute
-The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:
+    The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:
 ### Example
          <img src="img_boys.jpg">
 There are two ways to specify the URL in the src attribute:
@@ -121,7 +121,7 @@ Notes: External images might be under copyright. If you do not get permission to
  - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_boys.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_boys.jpg".
 Tip: It is almost always best to use relative URLs. They will not break if you change domain.
 # The width and height Attributes
-The <img> tag should also contain the width and height attributes, which specify the width and height of the image (in pixels):
+    The <img> tag should also contain the width and height attributes, which specify the width and height of the image (in pixels):
 ### Example       
          <img src="img_boys.jpg" width="500" height="600">
 # The style Attribute
@@ -170,7 +170,7 @@ The CSS background-color property defines the background color for an HTML eleme
            <p>This is a paragraph.</p>
            </body>
 # Text Alignment
-The CSS text-align property defines the horizontal text alignment for an HTML element:
+    The CSS text-align property defines the horizontal text alignment for an HTML element:
 ### Example
            <h1 style="text-align:center;">Centered Heading</h1>
            <p style="text-align:center;">Centered paragraph.</p>
@@ -246,22 +246,17 @@ Formatting elements were designed to display special types of text:
             <dd>- white cold drink</dd>
             </dl>
 ## HTML List Tags
-   Tag
-   Description
-   <ul>
-   Defines an unordered list
-   <ol>
-   Defines an ordered list
-   <li>
-   Defines a list item
-   <dl>
-   Defines a description list
-   <dt>
-   Defines a term in a description list
-   <dd>
-   Describes the term in a description list
+   
+      Tag                  Description
+      <ul>             Defines an unordered list
+      <ol>             Defines an ordered list
+      <li>             Defines a list item
+      <dl>             Defines a description list
+      <dt>             Defines a term in a description list
+      <dd>             Describes the term in a description list
 
-# HTML Block and Inline Elements
+ 
+ # HTML Block and Inline Elements
  Every HTML element has a default display value, depending on what type of element it is.
 The two most common display values are block and inline.
 
@@ -301,7 +296,8 @@ The two most common display values are block and inline.
           green</span> eyes.</p>
 # HTML Forms
 An HTML form is used to collect user input. The user input is most often sent to a server for processing.
-## The <form> Element
+    
+    ## The <form> Element
      The HTML <form> element is used to create an HTML form for user input:
      <form>
      form elements
@@ -321,7 +317,7 @@ An HTML form is used to collect user input. The user input is most often sent to
      <input type="submit">            Displays a submit button (for submitting the form)
      <input type="button">            Displays a clickable button
 # Text Fields
-The <input type="text"> defines a single-line input field for text input.
+    The <input type="text"> defines a single-line input field for text input.
 ### Example
      A form with input fields for text:
            <form>
@@ -575,8 +571,36 @@ If the name attribute is omitted, the value of the input field will not be sent 
     </body>
     </html>
          
-### 
+### HTML Table Tags
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Document</title>
+    </head>
+    <body 
+    <table>
+         <tr>
+             <th>Company</th>
+             <th>Contact</th>
+             <th>Country</th>
+         </tr>
+         <tr>
+             <td>Alfreds Futterkiste</td>
+             <td>Maria Anders</td>
+             <td>Germany</td>
+         </tr>
+         <tr>
+             <td>Centro comercial Moctezuma</td>
+             <td>Francisco Chang</td>
+             <td>Mexico</td>
+         </tr>
+    </table>
+    </body>
+    </html>
     
+###  HTML List Tags
 
 
 
