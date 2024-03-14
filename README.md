@@ -244,7 +244,7 @@ Formatting elements were designed to display special types of text:
             <dd>- black hot drink</dd>
             <dt>Milk</dt>
             <dd>- white cold drink</dd>
-       </dl>
+            </dl>
 ## HTML List Tags
    Tag
    Description
@@ -575,7 +575,7 @@ If the name attribute is omitted, the value of the input field will not be sent 
     </body>
     </html>
          
-
+### 
     
 
 
