@@ -6,16 +6,9 @@
 -
 [What is an HTML Element?](https://github.com/milansharma250617/Documentation/tree/main#what-is-an-html-element-1)
 -
-[Web Browsers](https://github.com/milansharma250617/Documentation/edit/main/README.md#web-browsers)
+[Web Browsers](https://github.com/milansharma250617/Documentation/edit/main/README.md#web-browsers-1)
 -
-[What is an HTML Element?](https://github.com/milansharma250617/Documentation/tree/main#what-is-an-html-element-1)
--
-[What is an HTML Element?](https://github.com/milansharma250617/Documentation/tree/main#what-is-an-html-element-1)
--
-[What is an HTML Element?](https://github.com/milansharma250617/Documentation/tree/main#what-is-an-html-element-1)
--
-[What is an HTML Element?](https://github.com/milansharma250617/Documentation/tree/main#what-is-an-html-element-1)
--
+
 # What is HTML?
 HTML stands for Hyper Text Markup Language
 HTML is the standard markup language for creating Web pages
