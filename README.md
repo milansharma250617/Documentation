@@ -4,7 +4,7 @@
 -
 [What is HTML](https://github.com/milansharma250617/Documentation/tree/main#what-is-html)
 -
-[What is an HTML Element?](https://github.com/milansharma250617/Documentation/tree/main#what-is-an-html-element)
+[What is an HTML Element?](https://github.com/milansharma250617/Documentation/tree/main#what-is-an-html-element-1)
 -
 # What is HTML?
 HTML stands for Hyper Text Markup Language
