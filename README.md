@@ -2,7 +2,7 @@
 
 # Table of Content
 -
-[What is Selenium](https://github.com/milansharma250617/Documentation/tree/main#what-is-html)
+[What is HTML](https://github.com/milansharma250617/Documentation/tree/main#what-is-html)
 
 # What is HTML?
 HTML stands for Hyper Text Markup Language
