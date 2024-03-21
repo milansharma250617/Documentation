@@ -16,7 +16,7 @@
 -
 [Never Skip the End Tag](https://github.com/milansharma250617/Documentation/tree/main/README.md#never-skip-the-end-tag-1)
 -
-[Empty HTML Elements](https://github.com/milansharma250617/Documentation/blob/main/README.md#empty-html-elements)
+[Empty HTML Elements](https://github.com/milansharma250617/Documentation/blob/main/README.md#empty-html-elements-1)
 -
 [HTML Elements](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-elements-1)
 -
