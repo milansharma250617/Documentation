@@ -10,6 +10,8 @@
 -
 [HTML Page Structure](https://github.com/milansharma250617/Documentation/tree/main/README.md#html-page-structure)
 -
+[HTML Elements](https://github.com/milansharma250617/Documentation/tree/main/README.md#html-elements)
+-
 # What is HTML?
 HTML stands for Hyper Text Markup Language
 HTML is the standard markup language for creating Web pages
