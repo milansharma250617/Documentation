@@ -8,7 +8,7 @@
 -
 [Web Browsers](https://github.com/milansharma250617/Documentation/tree/main/README.md#web-browsers-1)
 -
-[HTML Page Structure](https://github.com/milansharma250617/Documentation/edit/main/README.md#html-page-structure)
+[HTML Page Structure](https://github.com/milansharma250617/Documentation/tree/main/README.md#html-page-structure)
 -
 # What is HTML?
 HTML stands for Hyper Text Markup Language
