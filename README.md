@@ -28,7 +28,7 @@
 -
 [The style Attributes](https://github.com/milansharma250617/Documentation/blob/main/README.md#the-style-attribute)
 -
-[HTML Horizontal Rules]()
+[HTML Horizontal Rules](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-horizontal-rules-1)
 -
 [The src Attribute](https://github.com/milansharma250617/Documentation/blob/main/README.md#the-src-attribute-1)
 -
