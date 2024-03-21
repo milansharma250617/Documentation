@@ -22,6 +22,8 @@
 -
 [The href Attributes](https://github.com/milansharma250617/Documentation/blob/main/README.md#the-href-attribute)
 -
+[The src Attribute](https://github.com/milansharma250617/Documentation/edit/main/README.md#the-src-attribute)
+-
 # What is HTML?
 HTML stands for Hyper Text Markup Language
 HTML is the standard markup language for creating Web pages
