@@ -12,7 +12,7 @@
 -
 [HTML Elements](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-elements-1)
 -
-[Nested HTML Elements](https://github.com/milansharma250617/Documentation/edit/main/README.md#nested-html-elements)
+[Nested HTML Elements](https://github.com/milansharma250617/Documentation/tree/main/README.md#nested-html-elements)
 -
 [HTML Elements](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-elements-1)
 -
