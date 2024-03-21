@@ -18,7 +18,7 @@
 -
 [Empty HTML Elements](https://github.com/milansharma250617/Documentation/blob/main/README.md#empty-html-elements-1)
 -
-[HTML Elements](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-elements-1)
+[HTML Attributes](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-attributes)
 -
 [HTML Elements](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-elements-1)
 -
