@@ -24,7 +24,7 @@
 -
 [The src Attribute](https://github.com/milansharma250617/Documentation/blob/main/README.md#the-src-attribute-1)
 -
-[The width and height Attributes](https://github.com/milansharma250617/Documentation/edit/main/README.md#the-width-and-height-attributes-1)
+[The width and height Attributes](https://github.com/milansharma250617/Documentation/tree/main/README.md#the-width-and-height-attributes-1)
 -
 [The src Attribute](https://github.com/milansharma250617/Documentation/blob/main/README.md#the-src-attribute-1)
 -
