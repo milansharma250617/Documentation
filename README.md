@@ -30,7 +30,7 @@
 -
 [HTML Horizontal Rules](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-horizontal-rules-1)
 -
-[The src Attribute](https://github.com/milansharma250617/Documentation/blob/main/README.md#the-src-attribute-1)
+[Background color and Text Alignment](https://github.com/milansharma250617/Documentation/blob/main/README.md#background-color)
 -
 [The src Attribute](https://github.com/milansharma250617/Documentation/blob/main/README.md#the-src-attribute-1)
 -
