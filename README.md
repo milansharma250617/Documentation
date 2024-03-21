@@ -6,8 +6,7 @@
 -
 [What is an HTML Element?](https://github.com/milansharma250617/Documentation/tree/main#what-is-an-html-element-1)
 -
-[Web Browsers](https://github.com/milansharma250617/Documentation/edit/main/README.md#web-browsers-1)
--
+[Web Browsers](https://github.com/milansharma250617/Documentation/tree/main/README.md#web-browsers-1)
 [HTML Page Structure](https://github.com/milansharma250617/Documentation/edit/main/README.md#html-page-structure)
 -
 # What is HTML?
