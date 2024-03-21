@@ -14,7 +14,7 @@
 -
 [Nested HTML Elements](https://github.com/milansharma250617/Documentation/blob/main/README.md#nested-html-elements-1)
 -
-[HTML Elements](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-elements-1)
+[Never Skip the End Tag](https://github.com/milansharma250617/Documentation/tree/main/README.md#never-skip-the-end-tag-1)
 -
 [HTML Elements](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-elements-1)
 -
