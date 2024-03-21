@@ -24,6 +24,17 @@
 -
 [The src Attribute](https://github.com/milansharma250617/Documentation/blob/main/README.md#the-src-attribute-1)
 -
+[The width and height Attributes](https://github.com/milansharma250617/Documentation/edit/main/README.md#the-width-and-height-attributes-1)
+-
+[The src Attribute](https://github.com/milansharma250617/Documentation/blob/main/README.md#the-src-attribute-1)
+-
+[The src Attribute](https://github.com/milansharma250617/Documentation/blob/main/README.md#the-src-attribute-1)
+-
+[The src Attribute](https://github.com/milansharma250617/Documentation/blob/main/README.md#the-src-attribute-1)
+-
+[The src Attribute](https://github.com/milansharma250617/Documentation/blob/main/README.md#the-src-attribute-1)
+-
+
 # What is HTML?
 HTML stands for Hyper Text Markup Language
 HTML is the standard markup language for creating Web pages
@@ -139,7 +150,7 @@ The <a> tag defines a hyperlink. The href attribute specifies the URL of the pag
 ### Example
          <img src="img_boys.jpg">
 There are two ways to specify the URL in the src attribute:
-## 1 Absolute URL 
+## 1. Absolute URL 
 - Links to an external image that is hosted on another website. Example: src="https://www.google.com/images/img_boys.jpg".
 Notes: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.
 ## 2. Relative URL
