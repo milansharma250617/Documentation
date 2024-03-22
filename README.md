@@ -34,6 +34,16 @@
 -
 [HTML Formatting Elements](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-formatting-elements-1)
 -
+[HTML Tables](https://github.com/milansharma250617/Documentation/tree/main/README.md#html-tables-1)
+-
+[HTML Description Lists](https://github.com/milansharma250617/Documentation/tree/main/README.md#html-description-lists-1)
+-
+[The <span> Element](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-formatting-elements-1)
+-
+[](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-formatting-elements-1)
+-
+[](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-formatting-elements-1)
+-
 
 # What is HTML?
 HTML stands for Hyper Text Markup Language
