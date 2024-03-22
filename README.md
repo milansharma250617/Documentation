@@ -38,9 +38,9 @@
 -
 [HTML Description Lists](https://github.com/milansharma250617/Documentation/tree/main/README.md#html-description-lists-1)
 -
-[HTML Forms](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-formatting-elements-1)
+[HTML Forms](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-forms-1)
 -
-[](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-formatting-elements-1)
+[Text Fields](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-formatting-elements-1)
 -
 [](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-formatting-elements-1)
 -
