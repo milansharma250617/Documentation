@@ -38,7 +38,7 @@
 -
 [HTML Description Lists](https://github.com/milansharma250617/Documentation/tree/main/README.md#html-description-lists-1)
 -
-[The <span> Element](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-formatting-elements-1)
+[HTML Forms](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-formatting-elements-1)
 -
 [](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-formatting-elements-1)
 -
@@ -611,33 +611,6 @@ If the name attribute is omitted, the value of the input field will not be sent 
     </html>
 
 
-### Block-level element tag
-    <html lang="en">
-    <head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Document</title>
-    </head>
-    <body 
-    <div>
-         <p>This is a block-level element.</p>
-         <p>It starts on a new line and takes up the full width available.</p>
-    </div>
-    </body>
-    </html>
-
-
-### Inline element
-    <html lang="en">
-    <head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Document</title>
-    </head>
-    <body 
-         <p>This is a <span>inline</span> element.</p>
-    </body>
-    </html>
 
 
 ### Form tag
