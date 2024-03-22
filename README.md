@@ -53,18 +53,23 @@ HTML consists of a series of elements
 HTML elements tell the browser how to display the content
 HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
 ### Example
-       <idoctype.html>
-       <html>
-       <head>
-       <title> page title </title>
-       </head>  
-       <body>
-       <h1> This is a heading </h1>
-       <p1> This is paragraph
-       <hr><br> What is your name </p1>
-
-       </body>
-       </html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+         <h1>My name is Milan Sharma</h1>
+         <h2>My name is Milan Sharma</h1>
+         <h3>My name is Milan Sharma</h1>
+         <h4>My name is Milan Sharma</h1>
+         <h5>My name is Milan Sharma</h1>
+         <h6>My name is Milan Sharma</h1>
+    </body>
+    </html>      
+   
 ### Example Explained
 
          The <!DOCTYPE html> declaration defines that this document is an HTML5 document
@@ -83,25 +88,42 @@ HTML elements label pieces of content such as "this is a heading", "this is a pa
     <h1>My First Heading</h1>
 
     <p>My first paragraph.</p>
-
+# Paragraph Tag
+### Example
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+    <h1>my name is Milan Sharma</h1> 
+    <p>this is a simple paragraph</p>
+    </body>
+    </html>
+   
 
 # Web Browsers
 The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.
 A browser does not display the HTML tags, but uses them to determine how to display the document:
 ![Alt Text](https://www.w3schools.com/html/img_chrome.png)
 # HTML Page Structure
-     Below is a visualisation of an HTML page structure:
-        <html>
-        <head>
-        <title>Page title</title>
-        </head>
-        <body>
-        <h1>This is a heading</h1>
-        <p>This is a paragraph.</p>
-        <p>This is another paragraph.</p>
-        </body>
-        </html>
-
+    Below is a visualisation of an HTML page structure:
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+    <h1>my name is Milan Sharma</h1> 
+    <br>
+    <p>this is a simple paragraph</p>
+    <a href="https://www.google.com">Visit google</a>
+    </body>
+    </html>
 # HTML Elements
     The HTML element is everything from the start tag to the end tag:
     <tagname>Content goes here...</tagname>
@@ -130,20 +152,39 @@ The following example contains four HTML elements.
 Some HTML elements will display correctly, even if you forget the end tag:
 ### Example
 
-        <html>
-        <body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
 
         <p>This is a paragraph
         <p>This is a paragraph
 
-        </body>
-        </html>
+    </body>
+    </html>
 # Empty HTML Elements
     HTML elements with no content are called empty elements.
     The <br> tag defines a line break, and is an empty element without a closing tag:
 ### Example
 
-         <p>This is a <br> paragraph with a line break.</p>
+         
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+    </head>
+    <body>
+    <h1>my name is Milan Sharma</h1> 
+    <br>
+    <p>this is a simple paragraph</p>
+    </body>
+    </html>
 
 # HTML Attributes
 All HTML elements can have attributes
@@ -169,10 +210,40 @@ Tip: It is almost always best to use relative URLs. They will not break if you c
 # The width and height Attributes
     The <img> tag should also contain the width and height attributes, which specify the width and height of the image (in pixels):
 ### Example       
-         <img src="img_boys.jpg" width="500" height="600">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <p>This is a paragraph
+        <p>This is a paragraph
+          <img src="https://media.istockphoto.com/id/1298623104/photo/happy-young-caucasian-boy-in-casual-outfit-with-arms-crossed-isolated-over-white- 
+          background.jpg?s=612x612&w=0&k=20&c=9fHNGNfGAIyviDNmBvsYc8tjhSd4sL3b-2I5gd9bMIg="
+          <img src="https://media.istockphoto.com/id/1298623104/photo/happy-young-caucasian-boy-in-casual-outfit-with-arms-crossed-isolated-over-white- 
+          background.jpg?s=612x612&w=0&k=20&c=9fHNGNfGAIyviDNmBvsYc8tjhSd4sL3b-2I5gd9bMIg=" width="500" height="600">
+    </body>
+    </html>
+
 # The style Attribute
 The style attribute is used to add styles to an element, such as color, font, size, and more.
 ### Example
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <p>This is a paragraph
+        <p>This is a paragraph
+            <p style="color:red;">This is a red paragraph.</p>
+    </body>
+    </html>
          
 # HTML Headings
 HTML headings are defined with the to tags.
@@ -192,36 +263,77 @@ The HTML element defines a paragraph.
           The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
           The <hr> element is used to separate content (or define a change) in an HTML page:
 ### Example
-         <h1>This is heading 1</h1>
-         <p>This is some text.</p>
-         <hr>
-         <h2>This is heading 2</h2>
-         <p>This is some other text.</p>
-         <hr>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <h1>My name is Milan Sharma</h1>
+        <hr>
+        <p>This is a simple paragraph</p>
+    
+    </body>
+    </html>
+    
       # The HTML <pre> Element
       The HTML <pre> element defines preformatted text.
       The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
 ### Example
-          <pre>
-           My Bonnie lies over the ocean.
-           My Bonnie lies over the sea.
-           My Bonnie lies over the ocean.
-           Oh, bring back my Bonnie to me.
-          </pre>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Document</title>
+    </head>
+    <body>
+
+         <h1>My name is Milan Sharma</h1> 
+         <pre>
+             My Bonnie lies over the ocean.
+             My Bonnie lies over the sea.
+             My Bonnie lies over the ocean.
+             Oh, bring back my Bonnie to me.
+         </pre>
+    
+    </body>
+    </html>
 # Background Color
 The CSS background-color property defines the background color for an HTML element.
 ### Example                                                                      
-           <body style="background-color:powderblue;">
-           <h1>This is a heading</h1>
-           <p>This is a paragraph.</p>
-           </body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Document</title>
+    </head>
+    <body style="background-color:powderblue;">
+         <h1>This is a heading</h1>
+         <p>This is a paragraph.</p>
+    </body>
+    </html>
 # Text Alignment
     The CSS text-align property defines the horizontal text alignment for an HTML element:
 ### Example
-           <h1 style="text-align:center;">Centered Heading</h1>
-           <p style="text-align:center;">Centered paragraph.</p>
-
-
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Document</title>
+    </head>
+    <body 
+         <h1>This is a heading</h1>
+         <p>This is a paragraph.</p>
+         <h1 style="text-align:center;">Centered Heading</h1>
+         <p style="text-align:center;">Centered paragraph.</p>
+    </body>
+    </html>
 
 
 # HTML Formatting Elements
@@ -260,24 +372,33 @@ Formatting elements were designed to display special types of text:
   
 
 ### Example
-    A simple HTML table:
-             <table>
-             <tr>
+     <!DOCTYPE html>
+    <html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Document</title>
+    </head>
+    <body 
+    <table>
+         <tr>
              <th>Company</th>
              <th>Contact</th>
              <th>Country</th>
-             </tr>
-             <tr>
-            <td>Alfreds Futterkiste</td>
-            <td>Maria Anders</td>
-            <td>Germany</td>
-            </tr>
-            <tr>
-            <td>Centro comercial Moctezuma</td>
-            <td>Francisco Chang</td>
-            <td>Mexico</td>
-            </tr>
-            </table>
+         </tr>
+         <tr>
+             <td>Alfreds Futterkiste</td>
+             <td>Maria Anders</td>
+             <td>Germany</td>
+         </tr>
+         <tr>
+             <td>Centro comercial Moctezuma</td>
+             <td>Francisco Chang</td>
+             <td>Mexico</td>
+         </tr>
+    </table>
+    </body>
+    </html>
 
 
 # HTML Description Lists
@@ -285,12 +406,29 @@ Formatting elements were designed to display special types of text:
     A description list is a list of terms, with a description of each term.
     The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term:
 ### Example
-            <dl>
-            <dt>Coffee</dt>
-            <dd>- black hot drink</dd>
-            <dt>Milk</dt>
-            <dd>- white cold drink</dd>
-            </dl>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Document</title>
+    </head>
+    </head>
+    <body 
+    <ol>
+         <li>Item 1</li>
+         <li>Item 2</li>
+         <li>Item 3</li>
+    </ol>
+    <ul>
+         <li>Item 1</li>
+         <li>Item 2</li>
+         <li>Item 3</li>
+    </ul>
+    </body>
+    </html>
+
+
 ## HTML List Tags
    
       Tag                  Description
@@ -321,299 +459,8 @@ An HTML form is used to collect user input. The user input is most often sent to
      </form>
     The <form> element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.
     All the different form elements are covered in this chapter: HTML Form Elements.
-
-# The <input> Element
-     The HTML <input> element is the most used form element.
-     An <input> element can be displayed in many ways, depending on the type attribute.
-     Here are some examples:
-        Type                             Description
-     <input type="text">              Displays a single-line text input field
-     <input type="radio">             Displays a radio button (for selecting one of many choices)
-     <input type="checkbox">          Displays a checkbox (for selecting zero or more of many choices)
-     <input type="submit">            Displays a submit button (for submitting the form)
-     <input type="button">            Displays a clickable button
-# Text Fields
-    The <input type="text"> defines a single-line input field for text input.
 ### Example
-     A form with input fields for text:
-           <form>
-           <label for="fname">First name:</label><br>
-           <input type="text" id="fname" name="fname"><br>
-           <label for="lname">Last name:</label><br>
-           <input type="text" id="lname" name="lname">
-           </form>
-
-# The <label> Element
-     Notice the use of the <label> element in the example above.
-     The <label> tag defines a label for many form elements.
-     The <label> element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focuses on the input element.
-     The <label> element also helps users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks 
-     the text within the <label> element, it toggles the radio button/checkbox.
-     The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.
-
-
-# The Submit Button
-     The <input type="submit"> defines a button for submitting the form data to a form-handler.
-     The form-handler is typically a file on the server with a script for processing input data.
-     The form-handler is specified in the form's action attribute.
-### Example
-            <form action="/action_page.php">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" value="John"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value="Doe"><br><br>
-            <input type="submit" value="Submit">
-            </form>
-
-# The Name Attribute for <input>
-Notice that each input field must have a name attribute to be submitted.
-If the name attribute is omitted, the value of the input field will not be sent at all.
-### Example
-            <form action="/action_page.php">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" value="John"><br><br>
-            <input type="submit" value="Submit">
-            </form>
-         
-
-# code
-  ### Heading tag
     <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-         <h1>My name is Milan Sharma</h1>
-         <h2>My name is Milan Sharma</h1>
-         <h3>My name is Milan Sharma</h1>
-         <h4>My name is Milan Sharma</h1>
-         <h5>My name is Milan Sharma</h1>
-         <h6>My name is Milan Sharma</h1>
-    </body>
-    </html>      
-   
-  ### Paragraph tag
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-    <h1>my name is Milan Sharma</h1> 
-    <p>this is a simple paragraph</p>
-    </body>
-    </html>
-   
-   ### Web browser link
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-    <h1>my name is Milan Sharma</h1> 
-    <br>
-    <p>this is a simple paragraph</p>
-    <a href="https://www.google.com">Visit google</a>
-    </body>
-    </html>
-   
-   ### Never Skip the End Tag
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-
-        <p>This is a paragraph
-        <p>This is a paragraph
-
-    </body>
-    </html>
-   
-   
-   ### Br tag
-    
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Document</title>
-    </head>
-    <body>
-    <h1>my name is Milan Sharma</h1> 
-    <br>
-    <p>this is a simple paragraph</p>
-    </body>
-    </html>
-
-### Image tag and width & height
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-
-        <p>This is a paragraph
-        <p>This is a paragraph
-          <img src="https://media.istockphoto.com/id/1298623104/photo/happy-young-caucasian-boy-in-casual-outfit-with-arms-crossed-isolated-over-white- 
-          background.jpg?s=612x612&w=0&k=20&c=9fHNGNfGAIyviDNmBvsYc8tjhSd4sL3b-2I5gd9bMIg="
-          <img src="https://media.istockphoto.com/id/1298623104/photo/happy-young-caucasian-boy-in-casual-outfit-with-arms-crossed-isolated-over-white- 
-          background.jpg?s=612x612&w=0&k=20&c=9fHNGNfGAIyviDNmBvsYc8tjhSd4sL3b-2I5gd9bMIg=" width="500" height="600">
-    </body>
-    </html>
-
-### The style attributes
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <p>This is a paragraph
-        <p>This is a paragraph
-            <p style="color:red;">This is a red paragraph.</p>
-    </body>
-    </html>
-
-### HTML Horizontal Rules
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-
-        <h1>My name is Milan Sharma</h1>
-        <hr>
-        <p>This is a simple paragraph</p>
-    
-    </body>
-    </html>
-
-### Pre tag
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Document</title>
-    </head>
-    <body>
-
-         <h1>My name is Milan Sharma</h1> 
-         <pre>
-             My Bonnie lies over the ocean.
-             My Bonnie lies over the sea.
-             My Bonnie lies over the ocean.
-             Oh, bring back my Bonnie to me.
-         </pre>
-    
-    </body>
-    </html>
-
-### Background color tag
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Document</title>
-    </head>
-    <body style="background-color:powderblue;">
-         <h1>This is a heading</h1>
-         <p>This is a paragraph.</p>
-    </body>
-    </html>
-
-### Text Alignment
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Document</title>
-    </head>
-    <body 
-         <h1>This is a heading</h1>
-         <p>This is a paragraph.</p>
-         <h1 style="text-align:center;">Centered Heading</h1>
-         <p style="text-align:center;">Centered paragraph.</p>
-    </body>
-    </html>
-         
-### HTML Table Tags
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Document</title>
-    </head>
-    <body 
-    <table>
-         <tr>
-             <th>Company</th>
-             <th>Contact</th>
-             <th>Country</th>
-         </tr>
-         <tr>
-             <td>Alfreds Futterkiste</td>
-             <td>Maria Anders</td>
-             <td>Germany</td>
-         </tr>
-         <tr>
-             <td>Centro comercial Moctezuma</td>
-             <td>Francisco Chang</td>
-             <td>Mexico</td>
-         </tr>
-    </table>
-    </body>
-    </html>
-    
-###  HTML List Tags
-    <html lang="en">
-    <head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Document</title>
-    </head>
-    <body 
-    <ol>
-         <li>Item 1</li>
-         <li>Item 2</li>
-         <li>Item 3</li>
-    </ol>
-    <ul>
-         <li>Item 1</li>
-         <li>Item 2</li>
-         <li>Item 3</li>
-    </ul>
-    </body>
-    </html>
-
-
-
-
-### Form tag
     <html lang="en">
     <head>
          <meta charset="UTF-8">
@@ -633,8 +480,19 @@ If the name attribute is omitted, the value of the input field will not be sent 
     </body>
     </html>
 
-
-### Input type text tag
+# The <input> Element
+     The HTML <input> element is the most used form element.
+     An <input> element can be displayed in many ways, depending on the type attribute.
+     Here are some examples:
+        Type                             Description
+     <input type="text">              Displays a single-line text input field
+     <input type="radio">             Displays a radio button (for selecting one of many choices)
+     <input type="checkbox">          Displays a checkbox (for selecting zero or more of many choices)
+     <input type="submit">            Displays a submit button (for submitting the form)
+     <input type="button">            Displays a clickable button
+# Text Fields
+    The <input type="text"> defines a single-line input field for text input.
+### Example
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -652,48 +510,21 @@ If the name attribute is omitted, the value of the input field will not be sent 
     </body>
     </html>
 
- ### Radio Button
+# The <label> Element
+     Notice the use of the <label> element in the example above.
+     The <label> tag defines a label for many form elements.
+     The <label> element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focuses on the input element.
+     The <label> element also helps users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks 
+     the text within the <label> element, it toggles the radio button/checkbox.
+     The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.
+
+
+# The Submit Button
+     The <input type="submit"> defines a button for submitting the form data to a form-handler.
+     The form-handler is typically a file on the server with a script for processing input data.
+     The form-handler is specified in the form's action attribute.
+### Example
     <!DOCTYPE html>
-    <html lang="en">
-    <head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Document</title>
-    </head>
-    <body 
-    <p>Choose your favorite Web language:</p>
-    <form>
-         <input type="radio" id="html" name="fav_language" value="HTML">
-         <label for="html">HTML</label><br>
-         <input type="radio" id="css" name="fav_language" value="CSS">
-         <label for="css">CSS</label><br>
-         <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-         <label for="javascript">JavaScript</label>
-    </form>
-
-    </body>
-    </html>
-
-### Checkboxes
-    <html lang="en">
-    <head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Document</title>
-    </head>
-    <body 
-    <form>
-         <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-         <label for="vehicle1"> I have a bike</label><br>
-         <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-         <label for="vehicle2"> I have a car</label><br>
-         <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-         <label for="vehicle3"> I have a boat</label>
-         </form>
-    </body>
-    </html>
-
-### Submit Button tag
     <html lang="en">
     <head>
          <meta charset="UTF-8">
@@ -704,5 +535,41 @@ If the name attribute is omitted, the value of the input field will not be sent 
          <button type="submit">Submit</button>
     </body>
     </html>
+
+# The Name Attribute for <input>
+Notice that each input field must have a name attribute to be submitted.
+If the name attribute is omitted, the value of the input field will not be sent at all.
+### Example
+            <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" value="John"><br><br>
+            <input type="submit" value="Submit">
+            </form>
+         
+
+   
+   
+   
+   
+  
+
+
+
+
+   
+
+
+
+
+
+   
+
+
+   
+
+
+
+
+
 
 
