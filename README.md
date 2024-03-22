@@ -32,7 +32,7 @@
 -
 [Background color and Text Alignment](https://github.com/milansharma250617/Documentation/blob/main/README.md#background-color)
 -
-[Html Formatting Elements](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-formatting-elements-1)
+[HTML Formatting Elements](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-formatting-elements-1)
 -
 
 # What is HTML?
