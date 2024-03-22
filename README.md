@@ -292,37 +292,7 @@ Formatting elements were designed to display special types of text:
       <dd>             Describes the term in a description list
 
  
- # HTML Block and Inline Elements
- Every HTML element has a default display value, depending on what type of element it is.
-The two most common display values are block and inline.
-
-## Block-level Elements
-     A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
-     A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
-     Two commonly used block elements are: <p> and <div>.
-     The <p> element defines a paragraph in an HTML document.
-     The <div> element defines a division or a section in an HTML document.
-     The <p> element is a block-level element.
-     The <div> element is a block-level element.
-### Example
-          <p>Hello World</p>
-          <div>Hello World</div>
-## Inline Elements
-     An inline element does not start on a new line.
-     An inline element only takes up as much width as necessary.
-     This is a <span> element inside a paragraph.
-### Example
-     <span>Hello World</span>
-     The <div> Element
-     The <div> element is often used as a container for other HTML elements.
-     The <div> element has no required attributes, but style, class and id are common.
-     When used together with CSS, the <div> element can be used to style blocks of content:
-### Example
-          <div style="background-color:black;color:white;padding:20px;">
-          <h2>London</h2>
-          <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants. 
-          </p>
-          </div>
+ 
 # The <span> Element
      The <span> element is an inline container used to mark up a part of a text, or a part of a document.
      The <span> element has no required attributes, but style, class and id are common.
@@ -371,33 +341,6 @@ An HTML form is used to collect user input. The user input is most often sent to
      the text within the <label> element, it toggles the radio button/checkbox.
      The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.
 
-# Radio Buttons
-    The <input type="radio"> defines a radio button.
-    Radio buttons let a user select ONE of a limited number of choices.
-### Example
-       A form with radio buttons:
-          <p>Choose your favorite Web language:</p>
-            <form>
-          <input type="radio" id="html" name="fav_language" value="HTML">
-          <label for="html">HTML</label><br>
-          <input type="radio" id="css" name="fav_language" value="CSS">
-          <label for="css">CSS</label><br>
-          <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-          <label for="javascript">JavaScript</label>
-          </form>
-
-# Checkboxes
-        The <input type="checkbox"> defines a checkbox.
-        Checkboxes let a user select ZERO or MORE options of a limited number of choices.
-### Example
-           <form>
-           <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-           <label for="vehicle1"> I have a bike</label><br>
-           <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-           <label for="vehicle2"> I have a car</label><br>
-           <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-           <label for="vehicle3"> I have a boat</label>
-           </form>
 
 # The Submit Button
      The <input type="submit"> defines a button for submitting the form data to a form-handler.
