@@ -40,9 +40,9 @@
 -
 [HTML Forms](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-forms-1)
 -
-[Text Fields](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-formatting-elements-1)
+[Text Fields](https://github.com/milansharma250617/Documentation/blob/main/README.md#text-fields-1)
 -
-[](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-formatting-elements-1)
+[The Submit Button](https://github.com/milansharma250617/Documentation/tree/main/README.md#the-submit-button-1)
 -
 
 # What is HTML?
