@@ -8,7 +8,7 @@
 -
 [Web Browsers](https://github.com/milansharma250617/Documentation/tree/main/README.md#web-browsers-1)
 -
-[HTML Page Structure](https://github.com/milansharma250617/Documentation/tree/main/README.md#html-page-structure)
+[HTML Page Structure](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-page-structure-1)
 -
 [HTML Elements](https://github.com/milansharma250617/Documentation/blob/main/README.md#html-elements-1)
 -
