@@ -312,7 +312,8 @@ The CSS background-color property defines the background color for an HTML eleme
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <title>Document</title>
     </head>
-    <body style="background-color:powderblue;">
+    <body>
+         style="background-color:powderblue;">
          <h1>This is a heading</h1>
          <p>This is a paragraph.</p>
     </body>
@@ -327,7 +328,7 @@ The CSS background-color property defines the background color for an HTML eleme
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <title>Document</title>
     </head>
-    <body 
+    <body> 
          <h1>This is a heading</h1>
          <p>This is a paragraph.</p>
          <h1 style="text-align:center;">Centered Heading</h1>
@@ -379,7 +380,7 @@ Formatting elements were designed to display special types of text:
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <title>Document</title>
     </head>
-    <body 
+    <body>
     <table>
          <tr>
              <th>Company</th>
@@ -414,7 +415,7 @@ Formatting elements were designed to display special types of text:
          <title>Document</title>
     </head>
     </head>
-    <body 
+    <body>
     <ol>
          <li>Item 1</li>
          <li>Item 2</li>
@@ -467,7 +468,7 @@ An HTML form is used to collect user input. The user input is most often sent to
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <title>Document</title>
     </head>
-    <body 
+    <body> 
     <form action="/submit-form" method="post">
          <label for="name">Name:</label>
          <input type="text" id="name" name="name" required>
@@ -500,7 +501,7 @@ An HTML form is used to collect user input. The user input is most often sent to
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <title>Document</title>
     </head>
-    <body 
+    <body> 
     <form>
          <label for="fname">First name:</label><br>
          <input type="text" id="fname" name="fname"><br>
@@ -531,7 +532,7 @@ An HTML form is used to collect user input. The user input is most often sent to
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <title>Document</title>
     </head>
-    <body 
+    <body>
          <button type="submit">Submit</button>
     </body>
     </html>
@@ -552,24 +553,6 @@ If the name attribute is omitted, the value of the input field will not be sent 
    
    
   
-
-
-
-
-   
-
-
-
-
-
-   
-
-
-   
-
-
-
-
 
 
 
