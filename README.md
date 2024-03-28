@@ -222,7 +222,7 @@ Tip: It is almost always best to use relative URLs. They will not break if you c
         <p>This is a paragraph
         <p>This is a paragraph
           <img src="https://media.istockphoto.com/id/1298623104/photo/happy-young-caucasian-boy-in-casual-outfit-with-arms-crossed-isolated-over-white- 
-          background.jpg?s=612x612&w=0&k=20&c=9fHNGNfGAIyviDNmBvsYc8tjhSd4sL3b-2I5gd9bMIg="
+          background.jpg?s=612x612&w=0&k=20&c=9fHNGNfGAIyviDNmBvsYc8tjhSd4sL3b-2I5gd9bMIg=">
           <img src="https://media.istockphoto.com/id/1298623104/photo/happy-young-caucasian-boy-in-casual-outfit-with-arms-crossed-isolated-over-white- 
           background.jpg?s=612x612&w=0&k=20&c=9fHNGNfGAIyviDNmBvsYc8tjhSd4sL3b-2I5gd9bMIg=" width="500" height="600">
     </body>
