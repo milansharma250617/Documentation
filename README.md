@@ -72,14 +72,14 @@ HTML elements label pieces of content such as "this is a heading", "this is a pa
    
 ### Example Explained
 
-         The <!DOCTYPE html> declaration defines that this document is an HTML5 document
-         The <html> element is the root element of an HTML page
-         The <head> element contains meta information about the HTML page
-         The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+         The <!DOCTYPE html> declaration defines that this document is an HTML5 document.
+         The <html> element is the root element of an HTML page.
+         The <head> element contains meta information about the HTML page.
+         The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab).
          The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
-         The <h1> element defines a large heading
+         The <h1> element defines a large heading.
 
-    The <p> element defines a paragraph
+    The <p> element defines a paragraph.
 
 # What is an HTML Element?
     An HTML element is defined by a start tag, some content, and an end tag:
@@ -187,10 +187,10 @@ Some HTML elements will display correctly, even if you forget the end tag:
     </html>
 
 # HTML Attributes
-All HTML elements can have attributes
-Attributes provide additional information about elements
-Attributes are always specified in the start tag
-Attributes usually come in name/value pairs like: name="value"
+All HTML elements can have attributes.
+Attributes provide additional information about elements.
+Attributes are always specified in the start tag.
+Attributes usually come in name/value pairs like: name="value".
 # The href Attribute
 The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:
 ### Example
